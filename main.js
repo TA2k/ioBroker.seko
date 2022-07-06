@@ -57,7 +57,7 @@ class Seko extends utils.Adapter {
             }, this.config.interval * 60 * 1000);
             this.refreshTokenInterval = setInterval(() => {
                 this.refreshToken();
-            }, this.session.expires_in * 1000);
+            }, 24 * 60 * 60 * 1000);
         }
     }
     async login() {
