@@ -118,7 +118,6 @@ class Seko extends utils.Adapter {
                 }
                 const data = res.data.installationsSites[0];
                 this.deviceObject.appType = data.groupType;
-                this.log.info(`Found ${data.devices.length} devices`);
                 for (const deviceId in data.devices) {
                     const device = data.devices[deviceId];
                     delete device.graphData;
