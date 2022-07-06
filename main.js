@@ -49,7 +49,7 @@ class Seko extends utils.Adapter {
         this.subscribeStates("*");
 
         await this.login();
-        if (this.session.token_value + ":" + this.session.mobile_id) {
+        if (this.session.token) {
             await this.getDeviceList();
             await this.updateDevices();
             this.updateInterval = setInterval(async () => {
@@ -82,6 +82,7 @@ class Seko extends utils.Adapter {
             .then((res) => {
                 this.log.debug(JSON.stringify(res.data));
                 this.setState("info.connection", true, true);
+                this.log.info("Login successful");
                 this.session = res.data;
             })
             .catch((error) => {
