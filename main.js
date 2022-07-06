@@ -121,6 +121,7 @@ class Seko extends utils.Adapter {
                 this.log.info(`Found ${data.devices.length} devices`);
                 for (const deviceId in data.devices) {
                     const device = data.devices[deviceId];
+                    delete device.graphData;
                     const id = deviceId;
                     this.deviceObject.devicesIDS[id] = device.type;
                     const name = device.device_name || "";
