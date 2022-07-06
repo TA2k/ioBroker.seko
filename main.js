@@ -187,7 +187,7 @@ class Seko extends utils.Adapter {
                 if (!res.data) {
                     return;
                 }
-                const data = res.data.devicedata;
+                const data = res.data.devicesdata;
                 for (const device of data) {
                     for (const id in device.devicedata) {
                         const value = device.devicedata[id];
