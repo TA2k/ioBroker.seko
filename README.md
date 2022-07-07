@@ -14,6 +14,8 @@
 ## seko adapter for ioBroker
 
 Adapter for seko devices
+## Status
+seko.0.ID.mon.current
 
 ## Diskussion und Fragen
 
