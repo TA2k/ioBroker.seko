@@ -50,6 +50,7 @@
     "extIcon": "https://raw.githubusercontent.com/TA2k/ioBroker.seko/main/admin/seko.png",
     "readme": "https://github.com/TA2k/ioBroker.seko/blob/main/README.md",
     "loglevel": "info",
+    "tier": 2,
     "mode": "daemon",
     "type": "climate-control",
     "compact": true,
