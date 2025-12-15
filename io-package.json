@@ -44,7 +44,6 @@
     "keywords": ["seko", "sekolink"],
     "license": "MIT",
     "platform": "Javascript/Node.js",
-    "main": "main.js",
     "icon": "seko.png",
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/TA2k/ioBroker.seko/main/admin/seko.png",
