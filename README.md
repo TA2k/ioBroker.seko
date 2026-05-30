@@ -23,6 +23,10 @@ seko.0.ID.mon.current
 
 ## Changelog
 
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
+
 ### 0.0.1
 * (TA2k) initial release
 
