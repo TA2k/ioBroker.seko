@@ -23,6 +23,9 @@ seko.0.ID.mon.current
 
 ## Changelog
 
+### **WORK IN PROGRESS**
+- (iobroker-bot) Adapter requires node.js >= 22 now.
+
 ### 0.0.1
 * (TA2k) initial release
 
